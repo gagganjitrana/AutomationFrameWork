@@ -13,8 +13,9 @@ public class Testing extends TestBase {
 	public void test()
 	{
 		TestBase.selectBrowser();
+		System.out.println("Testing Class: Testcases started");
 		HomePage hp = new HomePage();
-		System.out.println(hp.getTitle1());
+		System.out.println("URL Is: "+hp.getTitle1());
 		hp.navigateTOJQuery();
 		TestBase.closeBrowser();
 		
