@@ -29,8 +29,8 @@ public class HomePage extends TestBase {
 	
 	public String getTitle1()
 	{
-		//return driver.getTitle();
-		return null;
+		return driver.getTitle();
+		//return null;
 	}
 	
 	public void navigateTOJQuery()
